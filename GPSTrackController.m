@@ -35,6 +35,7 @@
     lm.desiredAccuracy = kCLLocationAccuracyBest;
     lm.distanceFilter = kCLDistanceFilterNone;
     [lm requestAlwaysAuthorization];
+    //don't forget plist
     
     //    [self.locationManager requestAlwaysAuthorization];
     [lm startUpdatingLocation];
