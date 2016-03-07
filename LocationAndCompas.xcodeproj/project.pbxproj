@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768A9FDA1C8D30E20090B1E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 768A9FD91C8D30E20090B1E4 /* main.m */; };
+		768A9FDD1C8D30E20090B1E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768A9FDC1C8D30E20090B1E4 /* AppDelegate.m */; };
+		768A9FE31C8D30E20090B1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768A9FE11C8D30E20090B1E4 /* Main.storyboard */; };
+		768A9FE51C8D30E20090B1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768A9FE41C8D30E20090B1E4 /* Assets.xcassets */; };
+		768A9FE81C8D30E20090B1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768A9FE61C8D30E20090B1E4 /* LaunchScreen.storyboard */; };
+		768A9FF31C8D30E30090B1E4 /* LocationAndCompasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768A9FF21C8D30E30090B1E4 /* LocationAndCompasTests.m */; };
+		768A9FFE1C8D30E30090B1E4 /* LocationAndCompasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768A9FFD1C8D30E30090B1E4 /* LocationAndCompasUITests.m */; };
+		768AA00D1C8D317F0090B1E4 /* GPSTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AA00C1C8D317F0090B1E4 /* GPSTrackController.m */; };
+		768AA00F1C8E19370090B1E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AA00E1C8E19370090B1E4 /* CoreLocation.framework */; };
+		768AA0111C8E193F0090B1E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AA0101C8E193F0090B1E4 /* CoreGraphics.framework */; };
+		768AA0131C8E19460090B1E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AA0121C8E19460090B1E4 /* UIKit.framework */; };
+		768AA0151C8E19550090B1E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AA0141C8E19550090B1E4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768A9FEF1C8D30E30090B1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768A9FCD1C8D30E20090B1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768A9FD41C8D30E20090B1E4;
+			remoteInfo = LocationAndCompas;
+		};
+		768A9FFA1C8D30E30090B1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768A9FCD1C8D30E20090B1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768A9FD41C8D30E20090B1E4;
+			remoteInfo = LocationAndCompas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		768A9FD51C8D30E20090B1E4 /* LocationAndCompas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationAndCompas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768A9FD91C8D30E20090B1E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		768A9FDB1C8D30E20090B1E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		768A9FDC1C8D30E20090B1E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		768A9FE21C8D30E20090B1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		768A9FE41C8D30E20090B1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768A9FE71C8D30E20090B1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		768A9FE91C8D30E20090B1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768A9FEE1C8D30E30090B1E4 /* LocationAndCompasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationAndCompasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768A9FF21C8D30E30090B1E4 /* LocationAndCompasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationAndCompasTests.m; sourceTree = "<group>"; };
+		768A9FF41C8D30E30090B1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768A9FF91C8D30E30090B1E4 /* LocationAndCompasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationAndCompasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768A9FFD1C8D30E30090B1E4 /* LocationAndCompasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationAndCompasUITests.m; sourceTree = "<group>"; };
+		768A9FFF1C8D30E30090B1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768AA00B1C8D317F0090B1E4 /* GPSTrackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSTrackController.h; path = ../GPSTrackController.h; sourceTree = "<group>"; };
+		768AA00C1C8D317F0090B1E4 /* GPSTrackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSTrackController.m; path = ../GPSTrackController.m; sourceTree = "<group>"; };
+		768AA00E1C8E19370090B1E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		768AA0101C8E193F0090B1E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		768AA0121C8E19460090B1E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		768AA0141C8E19550090B1E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768A9FD21C8D30E20090B1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768AA0151C8E19550090B1E4 /* Foundation.framework in Frameworks */,
+				768AA0131C8E19460090B1E4 /* UIKit.framework in Frameworks */,
+				768AA0111C8E193F0090B1E4 /* CoreGraphics.framework in Frameworks */,
+				768AA00F1C8E19370090B1E4 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768A9FEB1C8D30E30090B1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768A9FF61C8D30E30090B1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768A9FCC1C8D30E20090B1E4 = {
+			isa = PBXGroup;
+			children = (
+				768AA0141C8E19550090B1E4 /* Foundation.framework */,
+				768AA0121C8E19460090B1E4 /* UIKit.framework */,
+				768AA0101C8E193F0090B1E4 /* CoreGraphics.framework */,
+				768AA00E1C8E19370090B1E4 /* CoreLocation.framework */,
+				768A9FD71C8D30E20090B1E4 /* LocationAndCompas */,
+				768A9FF11C8D30E30090B1E4 /* LocationAndCompasTests */,
+				768A9FFC1C8D30E30090B1E4 /* LocationAndCompasUITests */,
+				768A9FD61C8D30E20090B1E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768A9FD61C8D30E20090B1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768A9FD51C8D30E20090B1E4 /* LocationAndCompas.app */,
+				768A9FEE1C8D30E30090B1E4 /* LocationAndCompasTests.xctest */,
+				768A9FF91C8D30E30090B1E4 /* LocationAndCompasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768A9FD71C8D30E20090B1E4 /* LocationAndCompas */ = {
+			isa = PBXGroup;
+			children = (
+				768A9FDB1C8D30E20090B1E4 /* AppDelegate.h */,
+				768A9FDC1C8D30E20090B1E4 /* AppDelegate.m */,
+				768AA00B1C8D317F0090B1E4 /* GPSTrackController.h */,
+				768AA00C1C8D317F0090B1E4 /* GPSTrackController.m */,
+				768A9FE11C8D30E20090B1E4 /* Main.storyboard */,
+				768A9FE41C8D30E20090B1E4 /* Assets.xcassets */,
+				768A9FE61C8D30E20090B1E4 /* LaunchScreen.storyboard */,
+				768A9FE91C8D30E20090B1E4 /* Info.plist */,
+				768A9FD81C8D30E20090B1E4 /* Supporting Files */,
+			);
+			path = LocationAndCompas;
+			sourceTree = "<group>";
+		};
+		768A9FD81C8D30E20090B1E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768A9FD91C8D30E20090B1E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		768A9FF11C8D30E30090B1E4 /* LocationAndCompasTests */ = {
+			isa = PBXGroup;
+			children = (
+				768A9FF21C8D30E30090B1E4 /* LocationAndCompasTests.m */,
+				768A9FF41C8D30E30090B1E4 /* Info.plist */,
+			);
+			path = LocationAndCompasTests;
+			sourceTree = "<group>";
+		};
+		768A9FFC1C8D30E30090B1E4 /* LocationAndCompasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				768A9FFD1C8D30E30090B1E4 /* LocationAndCompasUITests.m */,
+				768A9FFF1C8D30E30090B1E4 /* Info.plist */,
+			);
+			path = LocationAndCompasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768A9FD41C8D30E20090B1E4 /* LocationAndCompas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768AA0021C8D30E30090B1E4 /* Build configuration list for PBXNativeTarget "LocationAndCompas" */;
+			buildPhases = (
+				768A9FD11C8D30E20090B1E4 /* Sources */,
+				768A9FD21C8D30E20090B1E4 /* Frameworks */,
+				768A9FD31C8D30E20090B1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationAndCompas;
+			productName = LocationAndCompas;
+			productReference = 768A9FD51C8D30E20090B1E4 /* LocationAndCompas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		768A9FED1C8D30E30090B1E4 /* LocationAndCompasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768AA0051C8D30E30090B1E4 /* Build configuration list for PBXNativeTarget "LocationAndCompasTests" */;
+			buildPhases = (
+				768A9FEA1C8D30E30090B1E4 /* Sources */,
+				768A9FEB1C8D30E30090B1E4 /* Frameworks */,
+				768A9FEC1C8D30E30090B1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768A9FF01C8D30E30090B1E4 /* PBXTargetDependency */,
+			);
+			name = LocationAndCompasTests;
+			productName = LocationAndCompasTests;
+			productReference = 768A9FEE1C8D30E30090B1E4 /* LocationAndCompasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		768A9FF81C8D30E30090B1E4 /* LocationAndCompasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768AA0081C8D30E30090B1E4 /* Build configuration list for PBXNativeTarget "LocationAndCompasUITests" */;
+			buildPhases = (
+				768A9FF51C8D30E30090B1E4 /* Sources */,
+				768A9FF61C8D30E30090B1E4 /* Frameworks */,
+				768A9FF71C8D30E30090B1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768A9FFB1C8D30E30090B1E4 /* PBXTargetDependency */,
+			);
+			name = LocationAndCompasUITests;
+			productName = LocationAndCompasUITests;
+			productReference = 768A9FF91C8D30E30090B1E4 /* LocationAndCompasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768A9FCD1C8D30E20090B1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anastasiia Staiko";
+				TargetAttributes = {
+					768A9FD41C8D30E20090B1E4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					768A9FED1C8D30E30090B1E4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 768A9FD41C8D30E20090B1E4;
+					};
+					768A9FF81C8D30E30090B1E4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 768A9FD41C8D30E20090B1E4;
+					};
+				};
+			};
+			buildConfigurationList = 768A9FD01C8D30E20090B1E4 /* Build configuration list for PBXProject "LocationAndCompas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768A9FCC1C8D30E20090B1E4;
+			productRefGroup = 768A9FD61C8D30E20090B1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768A9FD41C8D30E20090B1E4 /* LocationAndCompas */,
+				768A9FED1C8D30E30090B1E4 /* LocationAndCompasTests */,
+				768A9FF81C8D30E30090B1E4 /* LocationAndCompasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768A9FD31C8D30E20090B1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768A9FE81C8D30E20090B1E4 /* LaunchScreen.storyboard in Resources */,
+				768A9FE51C8D30E20090B1E4 /* Assets.xcassets in Resources */,
+				768A9FE31C8D30E20090B1E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768A9FEC1C8D30E30090B1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768A9FF71C8D30E30090B1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768A9FD11C8D30E20090B1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768A9FDD1C8D30E20090B1E4 /* AppDelegate.m in Sources */,
+				768A9FDA1C8D30E20090B1E4 /* main.m in Sources */,
+				768AA00D1C8D317F0090B1E4 /* GPSTrackController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768A9FEA1C8D30E30090B1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768A9FF31C8D30E30090B1E4 /* LocationAndCompasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768A9FF51C8D30E30090B1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768A9FFE1C8D30E30090B1E4 /* LocationAndCompasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768A9FF01C8D30E30090B1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768A9FD41C8D30E20090B1E4 /* LocationAndCompas */;
+			targetProxy = 768A9FEF1C8D30E30090B1E4 /* PBXContainerItemProxy */;
+		};
+		768A9FFB1C8D30E30090B1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768A9FD41C8D30E20090B1E4 /* LocationAndCompas */;
+			targetProxy = 768A9FFA1C8D30E30090B1E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		768A9FE11C8D30E20090B1E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768A9FE21C8D30E20090B1E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		768A9FE61C8D30E20090B1E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768A9FE71C8D30E20090B1E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768AA0001C8D30E30090B1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		768AA0011C8D30E30090B1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768AA0031C8D30E30090B1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocationAndCompas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anastaiko.app-gmail.com.LocationAndCompas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		768AA0041C8D30E30090B1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocationAndCompas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anastaiko.app-gmail.com.LocationAndCompas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		768AA0061C8D30E30090B1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocationAndCompasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anastaiko.app-gmail.com.LocationAndCompasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationAndCompas.app/LocationAndCompas";
+			};
+			name = Debug;
+		};
+		768AA0071C8D30E30090B1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocationAndCompasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anastaiko.app-gmail.com.LocationAndCompasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationAndCompas.app/LocationAndCompas";
+			};
+			name = Release;
+		};
+		768AA0091C8D30E30090B1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocationAndCompasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anastaiko.app-gmail.com.LocationAndCompasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocationAndCompas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		768AA00A1C8D30E30090B1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocationAndCompasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anastaiko.app-gmail.com.LocationAndCompasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocationAndCompas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768A9FD01C8D30E20090B1E4 /* Build configuration list for PBXProject "LocationAndCompas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768AA0001C8D30E30090B1E4 /* Debug */,
+				768AA0011C8D30E30090B1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768AA0021C8D30E30090B1E4 /* Build configuration list for PBXNativeTarget "LocationAndCompas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768AA0031C8D30E30090B1E4 /* Debug */,
+				768AA0041C8D30E30090B1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		768AA0051C8D30E30090B1E4 /* Build configuration list for PBXNativeTarget "LocationAndCompasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768AA0061C8D30E30090B1E4 /* Debug */,
+				768AA0071C8D30E30090B1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		768AA0081C8D30E30090B1E4 /* Build configuration list for PBXNativeTarget "LocationAndCompasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768AA0091C8D30E30090B1E4 /* Debug */,
+				768AA00A1C8D30E30090B1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768A9FCD1C8D30E20090B1E4 /* Project object */;
+}
