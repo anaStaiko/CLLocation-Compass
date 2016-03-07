@@ -19,6 +19,7 @@
 		768AA0111C8E193F0090B1E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AA0101C8E193F0090B1E4 /* CoreGraphics.framework */; };
 		768AA0131C8E19460090B1E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AA0121C8E19460090B1E4 /* UIKit.framework */; };
 		768AA0151C8E19550090B1E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768AA0141C8E19550090B1E4 /* Foundation.framework */; };
+		76DBDE251C8E2B4D003389D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DBDE241C8E2B4D003389D2 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		768AA0101C8E193F0090B1E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		768AA0121C8E19460090B1E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		768AA0141C8E19550090B1E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76DBDE241C8E2B4D003389D2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DBDE251C8E2B4D003389D2 /* MapKit.framework in Frameworks */,
 				768AA0151C8E19550090B1E4 /* Foundation.framework in Frameworks */,
 				768AA0131C8E19460090B1E4 /* UIKit.framework in Frameworks */,
 				768AA0111C8E193F0090B1E4 /* CoreGraphics.framework in Frameworks */,
@@ -93,6 +96,7 @@
 		768A9FCC1C8D30E20090B1E4 = {
 			isa = PBXGroup;
 			children = (
+				76DBDE241C8E2B4D003389D2 /* MapKit.framework */,
 				768AA0141C8E19550090B1E4 /* Foundation.framework */,
 				768AA0121C8E19460090B1E4 /* UIKit.framework */,
 				768AA0101C8E193F0090B1E4 /* CoreGraphics.framework */,
@@ -514,6 +518,7 @@
 				768AA0041C8D30E30090B1E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		768AA0051C8D30E30090B1E4 /* Build configuration list for PBXNativeTarget "LocationAndCompasTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				768AA0071C8D30E30090B1E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		768AA0081C8D30E30090B1E4 /* Build configuration list for PBXNativeTarget "LocationAndCompasUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				768AA00A1C8D30E30090B1E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
