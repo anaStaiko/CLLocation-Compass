@@ -40,7 +40,16 @@
     
     mapView.delegate = self;
     mapView.showsUserLocation = self;
+    
+    lm.headingFilter = kCLHeadingFilterNone;
+    [lm startUpdatingHeading];
 }
+
+-(void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newHeading {
+    NSLog(@"magnetic heading is %f", newHeading.magneticHeading);
+    NSLog(@"true heading is %f", newHeading.trueHeading);
+}
+
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations {
     
@@ -50,12 +59,15 @@
     //store latest location in stored track array
     [trackPointArray addObject:currentLocation];
     
-    //    NSLog(@"%@", trackPointArray);
-    
     //get latest location coordinates
     CLLocationDegrees Latitude = currentLocation.coordinate.latitude;
     CLLocationDegrees Longitude = currentLocation.coordinate.longitude;
     CLLocationCoordinate2D locationCoordinates =CLLocationCoordinate2DMake(Latitude, Longitude);
+    
+    //get heading info. Based on GPS direction 
+    CLLocationDirection direction = currentLocation.course;
+    NSLog(@"direction is %.0f", direction);
+    _directionLabel.text = [NSString stringWithFormat:@"%.0f°", currentLocation.course];
     
     //zoom map to show user's location
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(locationCoordinates, 1000, 1000);

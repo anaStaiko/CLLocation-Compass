@@ -25,5 +25,6 @@
 - (IBAction)clearTrack:(id)sender;
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UILabel *directionLabel;
 
 @end
